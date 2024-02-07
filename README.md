@@ -33,3 +33,6 @@ There is also an option to include it in your "Send To" context menu in Windows!
 5. Copy the ```imgbb.cmd``` file to this folder
 6. Right-click on your image, navigate to "Send To" and then click "imgbb.cmd"!
 7. The image you upload will both be uploaded to your account AND the direct link will be copied to your clipboard for easy sharing!
+
+# Tips
+- This will **only** work with image files. If you attempt to upload anything other than an image, an error will be thrown and the script will exit
