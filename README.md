@@ -8,7 +8,7 @@ There is also an option to include it in your "Send To" context menu in Windows!
 
 ![Demo2](https://i.ibb.co/0Bhz2yk/4ef630bb1834.gif)
 
-# Installation Steps
+# Set Up
 1. Download source code
 2. Create a FREE ImgBB account at https://imgbb.com/
 3. Navigate to https://api.imgbb.com/
@@ -19,7 +19,7 @@ There is also an option to include it in your "Send To" context menu in Windows!
 8. Run ```quickbb.py```
 9. The image you upload will both be uploaded to your account AND the direct link will be copied to your clipboard for easy sharing!
 
-# "Send To" Menu Installation Steps
+# "Send To" Menu Set Up
 1. Edit the ```imgbb.cmd``` file
 2. Change the file path to the file path where the ```quickbb.py``` script is located
 3. Open Windows File Explorer
