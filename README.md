@@ -9,7 +9,7 @@ There is also an option to include it in your "Send To" context menu in Windows!
 ![Demo2](https://i.ibb.co/0Bhz2yk/4ef630bb1834.gif)
 
 # Requirements
-- Python 3.10.x (may work on earlier versions)
+- Python 3.10.x+ (likely will work on earlier versions of Python 3, but was written focusing on 3.10.x+)
 - [Pillow](https://pypi.org/project/pillow/)
 - [Requests](https://pypi.org/project/requests/)
 - The rest of the packages used are built-in that come with Python
