@@ -4,9 +4,15 @@ QuickBB uploads images directly to your ImgBB account and copies the direct imag
 
 ![Demo1](https://i.ibb.co/Cb2Cy4t/436d8e08a797.gif)
 
-There is also an option to include it in your "Send To" context menu in Windows! This makes it even more convienent to run, and you will not have to run the script, just simply right click on the image, and "send to" ImgBB!
+There is also an option to include it in your "Send To" context menu in Windows! This makes it even more convenient to run, and you will not have to run the script, just simply right-click on the image, and "send to" ImgBB!
 
 ![Demo2](https://i.ibb.co/0Bhz2yk/4ef630bb1834.gif)
+
+# Requirements
+- Python 3.10.x (may work on earlier versions)
+- [Pillow](https://pypi.org/project/pillow/)
+- [Requests](https://pypi.org/project/requests/)
+- The rest of the packages used are built-in that come with Python
 
 # Set Up
 1. Download source code
@@ -25,5 +31,5 @@ There is also an option to include it in your "Send To" context menu in Windows!
 3. Open Windows File Explorer
 4. In the Address Bar, type ```shell:sendto```
 5. Copy the ```imgbb.cmd``` file to this folder
-6. Right click on your image, navigate to "Send To" and then click "imgbb.cmd"!
+6. Right-click on your image, navigate to "Send To" and then click "imgbb.cmd"!
 7. The image you upload will both be uploaded to your account AND the direct link will be copied to your clipboard for easy sharing!
