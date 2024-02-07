@@ -10,8 +10,8 @@ There is also an option to include it in your "Send To" context menu in Windows!
 
 # Installation Steps
 1. Download source code
-2. Create a FREE ImgBB account
-3. Navigate to ```https://api.imgbb.com/```
+2. Create a FREE ImgBB account at https://imgbb.com/
+3. Navigate to https://api.imgbb.com/
 4. Click "Get API key"
 5. Edit ```quickbb.py```
 6. Add your API key to the ```api_key``` variable between the quotes (ex. api_key = '123456789')
