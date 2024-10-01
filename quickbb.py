@@ -1,12 +1,28 @@
 import base64
-import requests
-import sys
 import json
+import os
 import subprocess
-from PIL import Image
+import sys
 import time
+import requests
+import yaml
+from PIL import Image
 
-api_key = '' 
+api_key_file = os.path.join(os.path.dirname(__file__), 'api_key.yaml')
+
+try:
+    with open(api_key_file, 'r') as api_key_load:
+        api_key_var = yaml.safe_load(api_key_load)
+except FileNotFoundError:
+    with open(api_key_file, 'w+') as api_key_load:
+        api_key_load.write(f'key: ')
+    print(
+        f'"api_key.yaml" does not exist and has been created. '
+        'Please edit the newly created "api_key.yaml" file, add your ImgBB API key, and re-run quickbb.'
+    )
+    exit()
+
+api_key = api_key_var['key']
 
 # if context menu is used
 try:
