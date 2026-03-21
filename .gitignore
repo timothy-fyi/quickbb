@@ -1,1 +1,4 @@
 api_key.yaml
+__pycache__/
+holding/
+test_quickbb.py
